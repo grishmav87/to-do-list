@@ -1,12 +1,13 @@
 import "./App.css";
 import ToDoItem from "./ToDoItem";
+import todoData from "./todoData";
 
 function App() {
-  return (
-    <div className="App">
-      <ToDoItem />
-    </div>
-  );
+  const toDoItems = todoData.map((item) => (
+    <ToDoItem key={item.id} item={item} />
+  ));
+
+  return <div className="to-do-list">{toDoItems}</div>;
 }
 
 export default App;

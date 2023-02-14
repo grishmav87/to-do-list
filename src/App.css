@@ -1,6 +1,15 @@
-body {
-  padding: 50px;
-  text-align: center;
-  margin: 0 auto;
+.to-do-list {
   background-color: goldenrod;
+  padding: 50px;
+  align-items: start;
+  margin: 50px auto;
+  max-width: 300px;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0px 2px 2px rgba(137, 103, 17, 0.15), 0 10px 0 -5px goldenrod,
+    0 10px 1px -4px rgba(137, 103, 17, 0.15), 0 20px 0 -10px goldenrod,
+    0 20px 1px -9px rgba(137, 103, 17, 0.15), 0px 30px 0px -15px goldenrod;
+}
+.to-do-item {
+  display: flex;
 }
