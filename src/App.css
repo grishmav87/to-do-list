@@ -1,7 +1,7 @@
 .to-do-list {
   background-color: goldenrod;
   padding: 50px;
-  align-items: start;
+  align-items: flex-start;
   margin: 50px auto;
   max-width: 300px;
   display: flex;
