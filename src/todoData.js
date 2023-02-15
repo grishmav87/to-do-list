@@ -17,7 +17,7 @@ const todoData = [
   {
     id: 4,
     text: "Order new mattress",
-    completed: false,
+    completed: true,
   },
   {
     id: 5,
