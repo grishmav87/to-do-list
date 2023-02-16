@@ -7,7 +7,7 @@ const todoData = [
   {
     id: 2,
     text: "Get groceries",
-    completed: true,
+    completed: false,
   },
   {
     id: 3,
@@ -17,7 +17,7 @@ const todoData = [
   {
     id: 4,
     text: "Order new mattress",
-    completed: true,
+    completed: false,
   },
   {
     id: 5,
